@@ -58,7 +58,8 @@ namespace Redimensionador
 				{
 					Console.WriteLine(arquivo);
 					
-					///*
+					
+					///*Padrão
 					FileStream fileStream = new FileStream(arquivo, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
 					FileInfo fileInfo = new FileInfo(arquivo);
 					
@@ -75,7 +76,7 @@ namespace Redimensionador
 					fileInfo.MoveTo(caminhoFinal);
 					//*/
 					
-					/*Criar varios arquivos com alturas diferentes
+					/*Varios arquivos com alturas diferentes
 					FileStream fileStream;
 					FileInfo fileInfo = null;
 					
