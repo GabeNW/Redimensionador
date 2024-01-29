@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UJ/Htu511J/WMA64gW3af9L9QDw9TvDXZ5P2cUlC0nJfZLjwQ6vRCIv3dTVaENWX9aN3QkFhuw+EYhWPJXlHVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\Primeiro Software.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabe\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Gabe\\.nuget\\packages\\system.drawing.common\\8.0.1\\system.drawing.common.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

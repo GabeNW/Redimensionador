@@ -1,0 +1,20 @@
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\bin\Debug\net8.0\Primeiro Software.exe
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\bin\Debug\net8.0\Primeiro Software.deps.json
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\bin\Debug\net8.0\Primeiro Software.runtimeconfig.json
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\bin\Debug\net8.0\Primeiro Software.dll
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\bin\Debug\net8.0\Primeiro Software.pdb
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.AssemblyInfoInputs.cache
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.AssemblyInfo.cs
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.csproj.CoreCompileInputs.cache
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.dll
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\refint\Primeiro Software.dll
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.pdb
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.genruntimeconfig.cache
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\ref\Primeiro Software.dll
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\bin\Debug\net8.0\System.Drawing.Common.dll
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.csproj.AssemblyReference.cache
+c:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.csproj.CopyComplete
+C:\Users\Gabe\Desktop\Learn C#\Exercicios\Primeiro Software\obj\Debug\net8.0\Primeiro Software.sourcelink.json
