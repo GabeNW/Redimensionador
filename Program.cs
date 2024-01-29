@@ -15,7 +15,6 @@ namespace Redimensionador
 		
 		static void Redimensionar() 
 		{
-			
 			#region "Diretórios"
 			//Achar/Criar diretórios
 			string dirEntrada = "Arquivos_Entrada";
@@ -37,7 +36,7 @@ namespace Redimensionador
 			}
 			#endregion
 			
-			//Deletar os arquivos antigos antes de criar novos
+			//Deletar todos os arquivos antigos antes de criar novos
 			DirectoryInfo arquivosAntigos = new DirectoryInfo(dirRedimensionados);
 			foreach (FileInfo arquivos in arquivosAntigos.EnumerateFiles())
 			{
@@ -54,7 +53,6 @@ namespace Redimensionador
 				
 				//Criar varios arquivos com alturas diferentes
 				//int[] novaAltura = {200, 1920, 50, 1080};
-				//Teste pq o git n ta funfando
 				
 				foreach (var arquivo in arquivosEntrada)
 				{
@@ -64,7 +62,7 @@ namespace Redimensionador
 					FileStream fileStream = new FileStream(arquivo, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
 					FileInfo fileInfo = new FileInfo(arquivo);
 					
-					string caminho = Environment.CurrentDirectory + @"\" + dirRedimensionados + @"\" + DateTime.Now.Millisecond.ToString() + "_" + fileInfo.Name;
+					string caminho = Environment.CurrentDirectory + @"\" + dirRedimensionados + @"\" + fileInfo.Name + "_" + DateTime.Now.Millisecond.ToString();
 					
 					//Redimensiona e copia arquivos para a pasta redimensionada
 					Redimensionador(Image.FromStream(fileStream), novaAltura, caminho);
@@ -85,7 +83,7 @@ namespace Redimensionador
 					{
 						fileStream = new FileStream(arquivo, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
 						fileInfo = new FileInfo(arquivo);
-						string caminho = Environment.CurrentDirectory + @"\" + dirRedimensionados + @"\" + DateTime.Now.Millisecond.ToString() + "_" + fileInfo.Name;
+						string caminho = Environment.CurrentDirectory + @"\" + dirRedimensionados + @"\" + fileInfo.Name + "_" + DateTime.Now.Millisecond.ToString();
 						Redimensionador(Image.FromStream(fileStream), novaAltura[i], caminho);
 						fileStream.Close();
 					}
