@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Primeiro Software")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c7f27ed3b184fab281e0c4df13e03c3330a8561")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5523aa7d4a793e5772dfb1ed277c8983f24977c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Primeiro Software")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Primeiro Software")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
