@@ -63,10 +63,12 @@ namespace Redimensionador
 					FileStream fileStream = new FileStream(arquivo, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
 					FileInfo fileInfo = new FileInfo(arquivo);
 					
-					string caminho = Environment.CurrentDirectory + @"\" + dirRedimensionados + @"\" + fileInfo.Name + "_" + DateTime.Now.Millisecond.ToString();
+					string caminho = Environment.CurrentDirectory + @"\" + dirRedimensionados + @"\" + DateTime.Now.Millisecond.ToString() + "_" + fileInfo.Name;
 					
 					//Redimensiona e copia arquivos para a pasta redimensionada
+#pragma warning disable CA1416 // Validate platform compatibility
 					Redimensionador(Image.FromStream(fileStream), novaAltura, caminho);
+#pragma warning restore CA1416 // Validate platform compatibility
 					
 					//Fecha o Arquivo
 					fileStream.Close();
@@ -106,17 +108,33 @@ namespace Redimensionador
 		/// <returns></returns>
 		static void Redimensionador(Image img, int altura, string caminho) 
 		{
+#pragma warning disable CA1416 // Validate platform compatibility
 			double ratio = (double)altura/(double)img.Height;
+#pragma warning restore CA1416 // Validate platform compatibility
+#pragma warning disable CA1416 // Validate platform compatibility
 			int novaLargura = (int)(img.Width * ratio);
+#pragma warning restore CA1416 // Validate platform compatibility
+#pragma warning disable CA1416 // Validate platform compatibility
 			int novaAltura = (int)(img.Height * ratio);
+#pragma warning restore CA1416 // Validate platform compatibility
 			
+#pragma warning disable CA1416 // Validate platform compatibility
 			Bitmap novaImg = new Bitmap(novaLargura, novaAltura);
+#pragma warning restore CA1416 // Validate platform compatibility
+#pragma warning disable CA1416 // Validate platform compatibility
 			using(Graphics g = Graphics.FromImage(novaImg)) 
 			{
+#pragma warning disable CA1416 // Validate platform compatibility
 				g.DrawImage(img, 0, 0, novaLargura, novaAltura);
+#pragma warning restore CA1416 // Validate platform compatibility
 			}
+#pragma warning restore CA1416 // Validate platform compatibility
+#pragma warning disable CA1416 // Validate platform compatibility
 			novaImg.Save(caminho);
+#pragma warning restore CA1416 // Validate platform compatibility
+#pragma warning disable CA1416 // Validate platform compatibility
 			img.Dispose();
+#pragma warning restore CA1416 // Validate platform compatibility
 		}
 	}
 }
