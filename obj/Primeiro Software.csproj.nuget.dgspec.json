@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\Primeiro Software.csproj": {}
+    "C:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\Primeiro Software.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\Primeiro Software.csproj": {
+    "C:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\Primeiro Software.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\Primeiro Software.csproj",
+        "projectUniqueName": "C:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\Primeiro Software.csproj",
         "projectName": "Primeiro Software",
-        "projectPath": "c:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\Primeiro Software.csproj",
+        "projectPath": "C:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\Primeiro Software.csproj",
         "packagesPath": "C:\\Users\\Gabe\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\obj\\",
+        "outputPath": "C:\\Users\\Gabe\\Desktop\\Learn C#\\Exercicios\\Primeiro Software\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabe\\AppData\\Roaming\\NuGet\\NuGet.Config"
