@@ -1,5 +1,5 @@
 # Redimensionador
-
+Redimensionamento
 Este programa é um redimensionador de imagens (não possui Upscale) e para usá-lo siga os passos a seguir:
 
 Abra a pasta "Program.cs" e procure pela variável "novaAltura" e mude para a altura (pixels) desejada.
