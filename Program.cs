@@ -49,7 +49,7 @@ namespace Redimensionador
 				var arquivosEntrada = Directory.EnumerateFiles(dirEntrada);
 				
 				//Ler o tamanho que irá redimensionar
-				int novaAltura = 100;
+				int novaAltura = 1080;
 				
 				//Criar varios arquivos com alturas diferentes
 				//int[] novaAltura = {200, 1920, 50, 1080};
